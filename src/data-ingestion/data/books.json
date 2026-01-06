@@ -1,0 +1,837 @@
+{
+  "books": [
+    {
+      "title": "Alice's Adventures in Wonderland",
+      "authors": [
+        "Lewis Carroll"
+      ],
+      "first_publish_year": 1865,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Frankenstein or The Modern Prometheus",
+      "authors": [
+        "Mary Shelley"
+      ],
+      "first_publish_year": 1818,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Wonderful Wizard of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1899,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Time Machine",
+      "authors": [
+        "H. G. Wells"
+      ],
+      "first_publish_year": 1895,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Lost World",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1900,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Dracula",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "first_publish_year": 1897,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Brave New World",
+      "authors": [
+        "Aldous Huxley"
+      ],
+      "first_publish_year": 1932,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Jewel of Seven Stars",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "first_publish_year": 1902,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Iron Heel",
+      "authors": [
+        "Jack London"
+      ],
+      "first_publish_year": 1907,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Flatland",
+      "authors": [
+        "Edwin Abbott Abbott"
+      ],
+      "first_publish_year": 1884,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Invisible Man",
+      "authors": [
+        "H. G. Wells"
+      ],
+      "first_publish_year": 0,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Nineteen Eighty-Four",
+      "authors": [
+        "George Orwell"
+      ],
+      "first_publish_year": 1949,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Princess and Curdie",
+      "authors": [
+        "George MacDonald"
+      ],
+      "first_publish_year": 1832,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The War of the Worlds",
+      "authors": [
+        "H. G. Wells"
+      ],
+      "first_publish_year": 0,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Napoleon of Notting Hill",
+      "authors": [
+        "Gilbert Keith Chesterton"
+      ],
+      "first_publish_year": 1904,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Last Man",
+      "authors": [
+        "Mary Shelley"
+      ],
+      "first_publish_year": 1826,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Le Tour du Monde en Quatre-Vingts Jours",
+      "authors": [
+        "Jules Verne"
+      ],
+      "first_publish_year": 1872,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "Vingt mille lieues sous les mers",
+      "authors": [
+        "Jules Verne"
+      ],
+      "first_publish_year": 1870,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "authors": [
+        "Robert Louis Stevenson"
+      ],
+      "first_publish_year": 1875,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "News from nowhere, or, An epoch of rest, being some chapters from a utopian romance",
+      "authors": [
+        "William Morris"
+      ],
+      "first_publish_year": 1890,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Poison Belt",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1913,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Secret Agent",
+      "authors": [
+        "Joseph Conrad"
+      ],
+      "first_publish_year": 1907,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Machine Stops",
+      "authors": [
+        "E. M. Forster",
+        "E. M.Forster",
+        "E. Forster",
+        "Edward Forster"
+      ],
+      "first_publish_year": 1909,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Island of Dr. Moreau",
+      "authors": [
+        "H. G. Wells"
+      ],
+      "first_publish_year": 1896,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "After London",
+      "authors": [
+        "Richard Jefferies"
+      ],
+      "first_publish_year": 1885,
+      "subject": "science_fiction"
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1900,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Adventures of Sherlock Holmes [12 stories]",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1892,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Man Who Was Thursday",
+      "authors": [
+        "Gilbert Keith Chesterton"
+      ],
+      "first_publish_year": 1908,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Mysterious Affair at Styles",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1920,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Secret Adversary",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1922,
+      "subject": "mystery"
+    },
+    {
+      "title": "The mystery of Edwin Drood",
+      "authors": [
+        "Charles Dickens",
+        "Samuel Luke Fildes",
+        "Charles Bernard-Derosne",
+        "TC",
+        "John Cuming Walters"
+      ],
+      "first_publish_year": 1870,
+      "subject": "mystery"
+    },
+    {
+      "title": "His Last Bow [8 stories]",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1917,
+      "subject": "mystery"
+    },
+    {
+      "title": "Heart of Darkness",
+      "authors": [
+        "Joseph Conrad"
+      ],
+      "first_publish_year": 1899,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Riddle of the Sands",
+      "authors": [
+        "Erskine Childers"
+      ],
+      "first_publish_year": 1903,
+      "subject": "mystery"
+    },
+    {
+      "title": "Greenmantle",
+      "authors": [
+        "John Buchan",
+        "John Buchan ",
+        "john buchman"
+      ],
+      "first_publish_year": 1915,
+      "subject": "mystery"
+    },
+    {
+      "title": "Преступление и наказание",
+      "authors": [
+        "Фёдор Михайлович Достоевский"
+      ],
+      "first_publish_year": 1866,
+      "subject": "mystery"
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "first_publish_year": 1900,
+      "subject": "mystery"
+    },
+    {
+      "title": "Trent's Last Case",
+      "authors": [
+        "E. C. Bentley"
+      ],
+      "first_publish_year": 1900,
+      "subject": "mystery"
+    },
+    {
+      "title": "Prester John",
+      "authors": [
+        "John Buchan"
+      ],
+      "first_publish_year": 1900,
+      "subject": "mystery"
+    },
+    {
+      "title": "Whose Body?",
+      "authors": [
+        "Dorothy L. Sayers"
+      ],
+      "first_publish_year": 1923,
+      "subject": "mystery"
+    },
+    {
+      "title": "Basil",
+      "authors": [
+        "Wilkie Collins",
+        "Miguel Martínez-Lage"
+      ],
+      "first_publish_year": 1852,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Black Robe",
+      "authors": [
+        "Wilkie Collins"
+      ],
+      "first_publish_year": 1881,
+      "subject": "mystery"
+    },
+    {
+      "title": "Murder on the Links",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1923,
+      "subject": "mystery"
+    },
+    {
+      "title": "Fifty Candles",
+      "authors": [
+        "Earl Derr Biggers"
+      ],
+      "first_publish_year": 1926,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Angel of Terror",
+      "authors": [
+        "Edgar Wallace"
+      ],
+      "first_publish_year": 1923,
+      "subject": "mystery"
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1933,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Amateur Cracksman",
+      "authors": [
+        "E. W. Hornung"
+      ],
+      "first_publish_year": 1899,
+      "subject": "mystery"
+    },
+    {
+      "title": "The Murder of Roger Ackroyd",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1926,
+      "subject": "mystery"
+    },
+    {
+      "title": "Poirot investigates",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1924,
+      "subject": "mystery"
+    },
+    {
+      "title": "The After House",
+      "authors": [
+        "Mary Roberts Rinehart"
+      ],
+      "first_publish_year": 1914,
+      "subject": "mystery"
+    },
+    {
+      "title": "Alice's Adventures in Wonderland",
+      "authors": [
+        "Lewis Carroll"
+      ],
+      "first_publish_year": 1865,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Wonderful Wizard of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1899,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Treasure Island",
+      "authors": [
+        "Robert Louis Stevenson"
+      ],
+      "first_publish_year": 1880,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Gulliver's Travels",
+      "authors": [
+        "Jonathan Swift"
+      ],
+      "first_publish_year": 1726,
+      "subject": "fantasy"
+    },
+    {
+      "title": "A Midsummer Night's Dream",
+      "authors": [
+        "William Shakespeare"
+      ],
+      "first_publish_year": 1600,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Prince",
+      "authors": [
+        "Niccolò Machiavelli"
+      ],
+      "first_publish_year": 1515,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Through the Looking-Glass",
+      "authors": [
+        "Lewis Carroll",
+        "Lewis Carroll",
+        "Lewis Lewis Carroll"
+      ],
+      "first_publish_year": 1865,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Wind in the Willows",
+      "authors": [
+        "Kenneth Grahame"
+      ],
+      "first_publish_year": 1908,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Five Children and It",
+      "authors": [
+        "Edith Nesbit"
+      ],
+      "first_publish_year": 1905,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Lost World",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "first_publish_year": 1900,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Marvelous Land of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1904,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Ozma of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1907,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Emerald City of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1910,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Dorothy and the Wizard in Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1908,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Lost Princess of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1917,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Story of the Amulet",
+      "authors": [
+        "Edith Nesbit"
+      ],
+      "first_publish_year": 1905,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Complete Life and Adventures of Santa Claus",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1902,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Alice's Adventures in Wonderland / Through the Looking Glass",
+      "authors": [
+        "Lewis Carroll"
+      ],
+      "first_publish_year": 1889,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Road to Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1909,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Nineteen Eighty-Four",
+      "authors": [
+        "George Orwell"
+      ],
+      "first_publish_year": 1949,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Sea Fairies",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1911,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Baum's American Fairy Tales",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1901,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Sky Island",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1912,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Scarecrow of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1915,
+      "subject": "fantasy"
+    },
+    {
+      "title": "The Patchwork Girl of Oz",
+      "authors": [
+        "L. Frank Baum"
+      ],
+      "first_publish_year": 1913,
+      "subject": "fantasy"
+    },
+    {
+      "title": "Treasure Island",
+      "authors": [
+        "Robert Louis Stevenson"
+      ],
+      "first_publish_year": 1880,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Mysterious Affair at Styles",
+      "authors": [
+        "Agatha Christie"
+      ],
+      "first_publish_year": 1920,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Thirty-Nine Steps",
+      "authors": [
+        "John Buchan"
+      ],
+      "first_publish_year": 1915,
+      "subject": "thriller"
+    },
+    {
+      "title": "Dracula",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "first_publish_year": 1897,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Jewel of Seven Stars",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "first_publish_year": 1902,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Red Badge of Courage",
+      "authors": [
+        "Stephen Crane"
+      ],
+      "first_publish_year": 1855,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Prisoner of Zenda",
+      "authors": [
+        "Anthony Hope",
+        "Gary Hoppenstand",
+        "Diane Mowat",
+        "Alan Marks",
+        "Francesc Ràfols",
+        "Andrew Pugsley",
+        "Summer M. Hogan",
+        "Summer Hogan",
+        "Smidgen Press",
+        "Charles Dana Gibson",
+        "Daniel Lanza Barba",
+        "Javier Fornell Fernandez",
+        "Stephen Colbourn",
+        "Katy Jackson",
+        "James Wilby",
+        "Robinson, M."
+      ],
+      "first_publish_year": 1800,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Riddle of the Sands",
+      "authors": [
+        "Erskine Childers"
+      ],
+      "first_publish_year": 1903,
+      "subject": "thriller"
+    },
+    {
+      "title": "The deerslayer",
+      "authors": [
+        "James Fenimore Cooper"
+      ],
+      "first_publish_year": 1841,
+      "subject": "thriller"
+    },
+    {
+      "title": "Mr. Standfast",
+      "authors": [
+        "John Buchan"
+      ],
+      "first_publish_year": 1918,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Pathfinder",
+      "authors": [
+        "James Fenimore Cooper"
+      ],
+      "first_publish_year": 1800,
+      "subject": "thriller"
+    },
+    {
+      "title": "Le Tour du Monde en Quatre-Vingts Jours",
+      "authors": [
+        "Jules Verne"
+      ],
+      "first_publish_year": 1872,
+      "subject": "thriller"
+    },
+    {
+      "title": "White Fang",
+      "authors": [
+        "Jack London"
+      ],
+      "first_publish_year": 1905,
+      "subject": "thriller"
+    },
+    {
+      "title": "Vingt mille lieues sous les mers",
+      "authors": [
+        "Jules Verne"
+      ],
+      "first_publish_year": 1870,
+      "subject": "thriller"
+    },
+    {
+      "title": "The pioneers",
+      "authors": [
+        "James Fenimore Cooper"
+      ],
+      "first_publish_year": 1800,
+      "subject": "thriller"
+    },
+    {
+      "title": "Kidnapped",
+      "authors": [
+        "Robert Louis Stevenson"
+      ],
+      "first_publish_year": 1886,
+      "subject": "thriller"
+    },
+    {
+      "title": "A strange disappearance",
+      "authors": [
+        "Anna Katharine Green",
+        "Anna Katharine Green",
+        "Cyanide Publishing",
+        "Anna Katherine Green",
+        "Anna Green"
+      ],
+      "first_publish_year": 1879,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Evil Shepherd",
+      "authors": [
+        "Edward Phillips Oppenheim"
+      ],
+      "first_publish_year": 1922,
+      "subject": "thriller"
+    },
+    {
+      "title": "Otto of the Silver Hand",
+      "authors": [
+        "Howard Pyle",
+        "Howard Pyle"
+      ],
+      "first_publish_year": 1888,
+      "subject": "thriller"
+    },
+    {
+      "title": "An American Tragedy",
+      "authors": [
+        "Theodore Dreiser"
+      ],
+      "first_publish_year": 1900,
+      "subject": "thriller"
+    },
+    {
+      "title": "Voyage au Centre de la Terre",
+      "authors": [
+        "Jules Verne"
+      ],
+      "first_publish_year": 1867,
+      "subject": "thriller"
+    },
+    {
+      "title": "Lord of the Flies",
+      "authors": [
+        "William Golding"
+      ],
+      "first_publish_year": 1954,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Beetle",
+      "authors": [
+        "Richard Marsh",
+        "Satomi Sugita"
+      ],
+      "first_publish_year": 1897,
+      "subject": "thriller"
+    },
+    {
+      "title": "The Four Just Men",
+      "authors": [
+        "Edgar Wallace"
+      ],
+      "first_publish_year": 1905,
+      "subject": "thriller"
+    },
+    {
+      "title": "A Tale of Three Lions",
+      "authors": [
+        "H. Rider Haggard"
+      ],
+      "first_publish_year": 2004,
+      "subject": "thriller"
+    }
+  ]
+}
