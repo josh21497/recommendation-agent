@@ -27,5 +27,6 @@ export function recommendBookFromDataset(
 
   if (matches.length === 0) return null;
 
-  return matches[0];
+  const randomIndex = Math.floor(Math.random() * matches.length);
+  return matches[randomIndex];
 }

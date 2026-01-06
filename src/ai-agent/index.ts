@@ -4,7 +4,7 @@ import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
 import { openai } from "@ai-sdk/openai";
-import { streamText, tool } from "ai";
+import { streamText } from "ai";
 
 import {
   type Book,
@@ -101,15 +101,35 @@ async function main() {
       tools,
     });
 
-    process.stdout.write("\nAgent: ");
-    for await (const chunk of result.textStream) {
-      process.stdout.write(chunk);
+    const toolResults = await result.toolResults;
+
+    if (toolResults?.length) {
+      process.stdout.write("\nAgent: ");
+      const followUp = await streamText({
+        model: openai("gpt-5"),
+        messages: [
+          {
+            role: "system",
+            content:
+              "Explain the following tool result to the user in a clear, friendly sentence.",
+          },
+          {
+            role: "user",
+            content: JSON.stringify(toolResults[0].output),
+          },
+        ],
+      });
+
+      for await (const chunk of followUp.textStream) {
+        process.stdout.write(chunk);
+      }
     }
+
     process.stdout.write("\n\n");
   }
 
   rl.close();
-  console.log("Agent closed");
+  console.log("\nAgent closed");
 }
 
 main().catch((err) => {
