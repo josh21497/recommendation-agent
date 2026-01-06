@@ -8,7 +8,7 @@ export type Book = {
 };
 
 export const recommendBookParams = z.object({
-  genre: z.string(),
+  genre: z.string()
 });
 
 export type RecommendBookArgs = z.infer<typeof recommendBookParams>;

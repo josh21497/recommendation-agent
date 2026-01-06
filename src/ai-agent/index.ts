@@ -52,26 +52,36 @@ async function main() {
 
   const rl = readline.createInterface({ input, output });
 
-  const recommendBookTool = tool({
-    description:
-      "Recommend a book from the local dataset for the requested genre. Only return books from the dataset.",
-    parameters: recommendBookParams,
-    execute: (async ({ genre }: RecommendBookArgs) => {
-      const book = recommendBookFromDataset(books, genre);
+  const tools = {
+    recommendBook: {
+      description:
+        "Recommend a book from the local dataset for the requested genre. Only return books from the dataset.",
+      inputSchema: recommendBookParams,
+      execute: async ({ genre }: RecommendBookArgs) => {
+        const book = recommendBookFromDataset(books, genre);
 
-      if (!book) {
+        if (!book) {
+          return {
+            found: false,
+            title: null,
+            author: null,
+            year: null,
+            subject: null,
+            message: `No books found for genre "${genre}". Try one of: science_fiction, mystery, fantasy, thriller.`,
+          };
+        }
+
         return {
-          found: false,
-          message: `No books found for genre "${genre}". Try one of: science_fiction, mystery, fantasy, thriller.`,
+          found: true,
+          title: book.title,
+          author: book.author,
+          year: book.first_publish_year,
+          subject: book.subject,
+          message: null,
         };
-      }
-
-      return {
-        found: true,
-        book,
-      };
-    }) as any,
-  } as any);
+      },
+    },
+  };
 
   while (true) {
     const userText = await rl.question("You: ");
@@ -82,14 +92,13 @@ async function main() {
       system: [
         "You are a Book Recommendation Agent.",
         "You MUST call the recommendBook tool to select a book.",
-        "Only recommend books returned by the tool.",
-        "If the tool returns found=false, politely explain available genres.",
+        "After the tool returns, you MUST explain the result to the user in natural language.",
+        "If found=false, explain that no books are available for that genre.",
+        "Only describe books returned by the tool.",
         "Keep the response short and helpful.",
       ].join(" "),
       messages: [{ role: "user", content: userText }],
-      tools: {
-        recommendBook: recommendBookTool,
-      },
+      tools,
     });
 
     process.stdout.write("\nAgent: ");
@@ -100,7 +109,7 @@ async function main() {
   }
 
   rl.close();
-  console.log("Later");
+  console.log("Agent closed");
 }
 
 main().catch((err) => {
