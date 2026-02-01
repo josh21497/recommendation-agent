@@ -2,9 +2,23 @@ import json
 import os
 import requests
 
-BASE_URL = "https://openlibrary.org/subjects"
-SUBJECTS = ["science_fiction", "mystery", "fantasy", "thriller"]
-OUTPUT_PATH = os.path.join("data", "books.json")
+from constants import BASE_URL, SUBJECTS, DATA_DIR, BOOKS_FILENAME
+
+def main():
+    OUTPUT_PATH = os.path.join(DATA_DIR, BOOKS_FILENAME)
+
+    all_books = []
+
+    for subject in SUBJECTS:
+        books = fetch_books_for_subject(subject)
+        all_books.extend(books)
+
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump({"books": all_books}, f, ensure_ascii=False, indent=2)
+
+    print(f"\nSaved {len(all_books)} books to {OUTPUT_PATH}")
 
 def fetch_books_for_subject(subject):
     url = f"{BASE_URL}/{subject}.json?limit=25"
@@ -26,19 +40,6 @@ def fetch_books_for_subject(subject):
 
     return books
 
-def main():
-    all_books = []
-
-    for subject in SUBJECTS:
-        books = fetch_books_for_subject(subject)
-        all_books.extend(books)
-
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump({"books": all_books}, f, ensure_ascii=False, indent=2)
-
-    print(f"\nSaved {len(all_books)} books to {OUTPUT_PATH}")
-
 if __name__ == "__main__":
     main()
+    

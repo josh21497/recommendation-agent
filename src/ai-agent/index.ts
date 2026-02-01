@@ -15,30 +15,6 @@ import {
 
 type BooksFile = { books: Book[] };
 
-function loadBooks(): Book[] {
-  const booksPath = path.resolve(
-    process.cwd(),
-    "..",
-    "data-ingestion/data",
-    "books.json"
-  );
-
-  if (!fs.existsSync(booksPath)) {
-    throw new Error(
-      `books.json not found at ${booksPath}. Run: python data-ingestion/fetch_books.py`
-    );
-  }
-
-  const raw = fs.readFileSync(booksPath, "utf-8");
-  const parsed = JSON.parse(raw) as BooksFile;
-
-  if (!parsed.books || !Array.isArray(parsed.books)) {
-    throw new Error(`Invalid books.json format. Expected { "books": [...] }`);
-  }
-
-  return parsed.books;
-}
-
 async function main() {
   if (!process.env.OPENAI_API_KEY) {
     throw new Error("OPENAI_API_KEY is not set in your environment.");
@@ -130,6 +106,30 @@ async function main() {
 
   rl.close();
   console.log("\nAgent closed");
+}
+
+function loadBooks(): Book[] {
+  const booksPath = path.resolve(
+    process.cwd(),
+    "..",
+    "data-ingestion/data",
+    "books.json"
+  );
+
+  if (!fs.existsSync(booksPath)) {
+    throw new Error(
+      `books.json not found at ${booksPath}. Run: python data-ingestion/fetch_books.py`
+    );
+  }
+
+  const raw = fs.readFileSync(booksPath, "utf-8");
+  const parsed = JSON.parse(raw) as BooksFile;
+
+  if (!parsed.books || !Array.isArray(parsed.books)) {
+    throw new Error(`Invalid books.json format. Expected { "books": [...] }`);
+  }
+
+  return parsed.books;
 }
 
 main().catch((err) => {
